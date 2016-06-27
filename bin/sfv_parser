@@ -1,0 +1,60 @@
+#! /usr/bin/env ruby
+
+require 'logger'
+require 'csv'
+require 'json'
+require 'optparse'
+
+require File.join(File.dirname(__FILE__), '../lib/character')
+require File.join(File.dirname(__FILE__), '../lib/frame_datum')
+
+@schema = {}
+@logger = Logger.new($stdout)
+@logger.level = Logger::INFO
+
+begin
+  require 'gist'
+rescue LoadError => load_error
+  @logger.error('Unable to require gist gem...skipping')
+  load_error.backtrace.each { |trace| @logger.error(trace) }
+end
+
+# start
+file = ARGV[0]
+
+unless file
+  @logger.error("#{ARGV[0].inspect}: File is null")
+  exit(1)
+end
+
+unless File.exists?(File.path(file))
+  @logger.error("#{file.inspect}: File not found")
+  exit(1)
+end
+
+character_name = File.basename(file, '.csv')
+
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "Usage: ./sfv_parser [options] [filename]"
+  opts.on("-d", "--dump-schema", "Dump schema stdout") do
+    options[:dump_schema] = true
+  end
+end.parse!
+
+@logger.info("Generating data for #{character_name.inspect}")
+character = Character.new(character_name);
+
+CSV.foreach(file, headers: {first_row: true}) do |row|
+  name = row[0]
+  next unless name
+
+  if character.metadata_row?(name)
+    name.gsub!(/\s+/, '_')
+    character.send("#{name.to_sym}=", row[1])
+  else
+    character.frame_data << FrameDatum.new(row)
+  end
+end
+
+puts character.to_json
