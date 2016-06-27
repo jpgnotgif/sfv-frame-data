@@ -1,4 +1,4 @@
-Move,Command,Startup,Active,Recovery,Hit Advantage,Block Advantage, Damage,Stun,Total ,Hitstop,Chip,Attack Level,Cancel Ability,CH hit adv.,CH Damage,CH Stun,KD Adv.,KDR Adv.,KDRB Adv.
+Move,Command,Startup,Active,Recovery,Hit Advantage,Block Advantage, Damage,Stun,Total ,Hitstop,Chip,Attack Level,Cancel Ability,CH hit adv.,CH Damage,CH Stun,KD Adv.,KDR Adv.,KDRB Adv.V-Trigger
 stand LP,,4,3,6,4,3,30,70,,8,0,H,SP,6,36,84,,,
 stand MP,,7,3,13,6,2,60,100,,12,10,H,V,8,72,120,,,
 stand HP,,11,3,21,-1,-6,80,150,,15,13,H,"SP,V",1,96,180,,,
@@ -56,22 +56,22 @@ dash backward,22,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
 V-TRIGGER,,,,,,,,,,,,,,,,,,,
-psycho blast LP,"b,f+LP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,
-psycho blast MP,"b,f+MP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,
-psycho blast HP,"b,f+HP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,
-psycho blast EX,"b,f+PP",14,-,29,KD,0,130,150,,,,H,-,,,,,,
-double knee press LK,"b,f+LK",16,2(1)3,19,3,-4,,50*50,,,,H*H,CA,,,,,,
-double knee press MK,"b,f+MK",19,2(1)3,20,3,-3,,50*50,,,,H*H,CA,,,,,,
-double knee press HK,"b,f+HK",22,2(1)3,22,3,-2,,50*50,,,,H*H,CA,,,,,,
-double knee press EX,"b,f+KK",13,2(1)4,15,KD,3,,,,,,H*H,-,,,,,,
-head press LK,"d,u+LK",38,-,-,KD,-,120,200,,,,M,CA,,,,,,
-head press MK,"d,u+MK",38,-,-,KD,-,120,200,,,,M,CA,,,,,,
-head press HK,"d,u+HK",38,-,-,KD,-,120,200,,,,M,CA,,,,,,
-head press EX,"d,u+KK",35,-,-,KD,-,,,,,,M,-,,,,,,
-somersault skull diver,P after head press,,,-,,,,,,,,M,CA,,,,,,
-devil reverse,P before head press,,22,-,KD,5,100,,,,,M,CA,,,,,,
-psycho inferno LP,qcb+LP,14,16,22,KD,-5,,,,,,H,CA,,,,,,
-psycho inferno MP,qcb+MP,14,16,22,KD,-5,,,,,,H,CA,,,,,,
-psycho inferno HP,qcb+HP,14,16,22,KD,-5,,,,,,H,CA,,,,,,
-psycho inferno EX,qcb+PP,18,28,19,KD,4,,,,,,H,-,,,,,,
-ultimate psycho crusher,"qcf,qcf+P",,,,,,,,,,,,,,,,,,
+psycho blast LP,"b,f+LP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,,true
+psycho blast MP,"b,f+MP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,,true
+psycho blast HP,"b,f+HP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,,true
+psycho blast EX,"b,f+PP",14,-,29,KD,0,130,150,,,,H,-,,,,,,,true
+double knee press LK,"b,f+LK",16,2(1)3,19,3,-4,,50*50,,,,H*H,CA,,,,,,,true
+double knee press MK,"b,f+MK",19,2(1)3,20,3,-3,,50*50,,,,H*H,CA,,,,,,,true
+double knee press HK,"b,f+HK",22,2(1)3,22,3,-2,,50*50,,,,H*H,CA,,,,,,,true
+double knee press EX,"b,f+KK",13,2(1)4,15,KD,3,,,,,,H*H,-,,,,,,,true
+head press LK,"d,u+LK",38,-,-,KD,-,120,200,,,,M,CA,,,,,,,true
+head press MK,"d,u+MK",38,-,-,KD,-,120,200,,,,M,CA,,,,,,,true
+head press HK,"d,u+HK",38,-,-,KD,-,120,200,,,,M,CA,,,,,,,true
+head press EX,"d,u+KK",35,-,-,KD,-,,,,,,M,-,,,,,,,true
+somersault skull diver,P after head press,,,-,,,,,,,,M,CA,,,,,,,true
+devil reverse,P before head press,,22,-,KD,5,100,,,,,M,CA,,,,,,,true
+psycho inferno LP,qcb+LP,14,16,22,KD,-5,,,,,,H,CA,,,,,,,true
+psycho inferno MP,qcb+MP,14,16,22,KD,-5,,,,,,H,CA,,,,,,,true
+psycho inferno HP,qcb+HP,14,16,22,KD,-5,,,,,,H,CA,,,,,,,true
+psycho inferno EX,qcb+PP,18,28,19,KD,4,,,,,,H,-,,,,,,,true
+ultimate psycho crusher,"qcf,qcf+P",,,,,,,,,,,,,,,,,,,true

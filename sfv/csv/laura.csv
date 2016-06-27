@@ -1,4 +1,4 @@
-Move,Command,Startup,Active,Recovery,Hit Advantage,Block Advantage, Damage,Stun,Total ,Hitstop,Chip,Attack Level,Cancel Ability,CH hit adv.,CH Damage,CH Stun,KD Adv.,KDR Adv.,KDRB Adv.
+Move,Command,Startup,Active,Recovery,Hit Advantage,Block Advantage, Damage,Stun,Total ,Hitstop,Chip,Attack Level,Cancel Ability,CH hit adv.,CH Damage,CH Stun,KD Adv.,KDR Adv.,KDRB Adv.,V-Trigger
 stand LP,,3,2,9,3,2,30,70,,8,0,H,"SP,V",5,36,84,,,
 stand MP,,6,5,11,4,3,60,100,,12,10,H,"SP,V",6,72,120,,,
 stand HP,,8,3,18,3,-2,80,150,,15,13,H,"SP,V",16,96,180,,,
@@ -58,25 +58,25 @@ dash backwards,21,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
 V-TRIGGER,,,,,,,,,,,,,,,,,,,
-step elbow,f+HP,,,,,,,,,,,,,,,,,,
-twist barrage,f+HP > HP,,,,,,,,,,,,,,,,,,
-dual crash,MP > MK,,,,,,,,,,,,,,,,,,
-volty line,MP+MK,,,,,,,,,,,,,,,,,,
-bolt charge LP,qcf+LP,,,,,,,,,,,,,,,,,,
-bolt charge MP,qcf+MP,,,,,,,,,,,,,,,,,,
-bolt charge HP,qcf+HP,,,,,,,,,,,,,,,,,,
-bolt charge EX,qcf+PP,,,,,,,,,,,,,,,,,,
-split river,qcf+MP > P,,,,,,,,,,,,,,,,,,
-rodeo break,qcf+MP > K,,,,,,,,,,,,,,,,,,
-thunder clap LP,qcb+LP,,,,,,,,,,,,,,,,,,
-thunder clap LP,qcb+LP (hold),,,,,,,,,,,,,,,,,,
-thunder clap MP,qcb+MP,,,,,,,,,,,,,,,,,,
-thunder clap MP,qcb+MP (hold),,,,,,,,,,,,,,,,,,
-thunder clap HP,qcb+HP,,,,,,,,,,,,,,,,,,
-thunder clap HP,qcb+HP (hold),,,,,,,,,,,,,,,,,,
-thunder clap EX,qcb+PP,,,,,,,,,,,,,,,,,,
-sunset wheel LK,hcb+LK,,,,,,,,,,,,,,,,,,
-sunset wheel MK,hcb+MK,,,,,,,,,,,,,,,,,,
-sunset wheel HK,hcb+HK,,,,,,,,,,,,,,,,,,
-sunset wheel EX,hcb+KK,,,,,,,,,,,,,,,,,,
-inazuma spin hold,"qcf,qcf+K",,,,,,,,,,,,,,,,,,
+step elbow,f+HP,,,,,,,,,,,,,,,,,,,true
+twist barrage,f+HP > HP,,,,,,,,,,,,,,,,,,,true
+dual crash,MP > MK,,,,,,,,,,,,,,,,,,,true
+volty line,MP+MK,,,,,,,,,,,,,,,,,,,true
+bolt charge LP,qcf+LP,,,,,,,,,,,,,,,,,,,true
+bolt charge MP,qcf+MP,,,,,,,,,,,,,,,,,,,true
+bolt charge HP,qcf+HP,,,,,,,,,,,,,,,,,,,true
+bolt charge EX,qcf+PP,,,,,,,,,,,,,,,,,,,true
+split river,qcf+MP > P,,,,,,,,,,,,,,,,,,,true
+rodeo break,qcf+MP > K,,,,,,,,,,,,,,,,,,,true
+thunder clap LP,qcb+LP,,,,,,,,,,,,,,,,,,,true
+thunder clap LP,qcb+LP (hold),,,,,,,,,,,,,,,,,,,true
+thunder clap MP,qcb+MP,,,,,,,,,,,,,,,,,,,true
+thunder clap MP,qcb+MP (hold),,,,,,,,,,,,,,,,,,,true
+thunder clap HP,qcb+HP,,,,,,,,,,,,,,,,,,,true
+thunder clap HP,qcb+HP (hold),,,,,,,,,,,,,,,,,,,true
+thunder clap EX,qcb+PP,,,,,,,,,,,,,,,,,,,true
+sunset wheel LK,hcb+LK,,,,,,,,,,,,,,,,,,,true
+sunset wheel MK,hcb+MK,,,,,,,,,,,,,,,,,,,true
+sunset wheel HK,hcb+HK,,,,,,,,,,,,,,,,,,,true
+sunset wheel EX,hcb+KK,,,,,,,,,,,,,,,,,,,true
+inazuma spin hold,"qcf,qcf+K",,,,,,,,,,,,,,,,,,,true

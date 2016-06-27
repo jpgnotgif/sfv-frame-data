@@ -45,9 +45,13 @@ end.parse!
 @logger.info("Generating data for #{character_name.inspect}")
 character = Character.new(character_name);
 
+require 'pry-byebug'
+
 CSV.foreach(file, headers: {first_row: true}) do |row|
   name = row[0]
   next unless name
+
+  binding.pry
 
   if character.metadata_row?(name)
     name.gsub!(/\s+/, '_')
