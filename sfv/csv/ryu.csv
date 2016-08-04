@@ -43,8 +43,7 @@ air tatsumaki senpukyaku LK,qcb+LK(air),9,-,-,KD,-,100,200,,14,25,H,-,KD,120,240
 air tatsumaki senpukyaku MK,qcb+MK(air),9,-,-,KD,-,100,200,,14,25,H,-,KD,120,240,-,,
 air tatsumaki senpukyaku HK,qcb+HK(air),9,-,-,KD,-,100,200,,14,25,H,-,KD,120,240,-,,
 air tatsumaki senpukyaku EX,qcb+KK(air),8,-,-,KD,-,30x4*40,40x5,,5x5,8*8,H,-,KD,36*30x3*40,48*40x4,-,,
-shinkuu hadouken,"qcf,qcf+P",4,-,61,KD,-18,320,0,,-,??,H,-,KD,328,0,79,20,25
-,,,,,,,,,,,,,,,,,,,
+shinkuu hadouken,"qcf,qcf+P",4,-,61,KD,-18,320,0,,-,-,H,-,KD,328,0,79,20,25
 health,1000,,,,,,,,,,,,,,,,,,
 stun,1000,,,,,,,,,,,,,,,,,,
 taunt,61,,,,,,,,,,,,,,,,,,
@@ -53,8 +52,6 @@ jump forward,45 (3+38+4),,,,,,,,,,,,,,,,,,
 jump backwards,45 (3+38+4),,,,,,,,,,,,,,,,,,
 dash forward,16,,,,,,,,,,,,,,,,,,
 dash backwards,21,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-V-TRIGGER,,,,,,,,,,,,,,,,,,,
 stand LP,,3,2,7,4,2,30,100,,,0,6,36,120,H,SP,-,-,-,true
 stand MP,,5,3,10,6,1,60,130,,,10,8,72,156,H,SP,-,-,-,true
 stand HP,,7,3,20,3,-1,90,180,,,15,KD 99,108,216,H,-,-,-,-,true
@@ -74,6 +71,6 @@ hadouken (full charge),qcf+P(hold),6,-,31,KD,guard break +32,40*40*40,0*0*300,,,
 hadouken EX (full charge),qcf+PP(hold),5,-,32,KD,guard break +32,50*50*50,0*0*300,,,8*8*8,KD,60*50*50,0*0*300,H,-,102,-,-,true
 shoryuken LP,"f,d,df+LP",3,12,30,KD,-24,120,200,,,30,KD,144,240,H,CA,89,-,-,true
 shoryuken MP,"f,d,df+MP",4,11,39,KD,-32,140,200,,,35,KD,168,240,H,CA,81,-,-,true
-shoryuken HP,"f,d,df+HP",5,10,44,KD,-36,160,250,,,40,KD,192,300,H,CA,79,-,-,true
-shoryuken EX,"f,d,df+PP",3,12,44,KD,-37,100*80,0*250,,,25,KD,120*80,0*250,H,-,72,-,-,true
-shinkuu hadouken,"qcf,qcf+P",4,-,61,KD,guard break +8,350,300,,,7x6*18,KD,358,300,H,-,83,-,-,true
+shoryuken HP,"f,d,df+HP",5,10,44,KD,-36,160,250,,,40,KD,192,300,,,79,-,-,true
+shoryuken EX,"f,d,df+PP",3,12,44,KD,-37,"100*80","0*250",-,-,25,KD,"120*80","0*250",H,-,83,-,-,true
+shinkuu hadouken,"qcf,qcf+P",4,-,61,KD,-,350,300,,,7x6*18,KD,-,300,328,-,83,-,-,true

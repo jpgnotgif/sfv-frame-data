@@ -44,7 +44,6 @@ psycho inferno MP,qcb+MP,16,14,29,KD,-11,25x4,20x3*40,,4x4,6x4,H,"CA,V",KD,30*25
 psycho inferno HP,qcb+HP,18,16,30,KD,-10,20x4*30,20x5,,4x5,5x4*8,H,"CA,V",KD,24*20x3*30,24*20x4,101,42,47
 psycho inferno EX,qcb+PP,15,18,22,KD,-1,20x4*60,20x4*70,,3x4*4,5x4*15,H,V,KD,24*20x3*60,24*20x3*70,110,51,56
 ultimate psycho crusher,"qcf,qcf+P",6,30,48,KD,-40,340,0,,-,20x3,H,-,KD,346,0,27,27,27
-,,,,,,,,,,,,,,,,,,,
 health,1000,,,,,,,,,,,,,,,,,,
 stun,950,,,,,,,,,,,,,,,,,,
 taunt,61,,,,,,,,,,,,,,,,,,
@@ -53,9 +52,6 @@ jump forward,46 (3+39+4),,,,,,,,,,,,,,,,,,
 jump backward,46 (3+39+4),,,,,,,,,,,,,,,,,,
 dash forward,22,,,,,,,,,,,,,,,,,,
 dash backward,22,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-V-TRIGGER,,,,,,,,,,,,,,,,,,,
 psycho blast LP,"b,f+LP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,,true
 psycho blast MP,"b,f+MP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,,true
 psycho blast HP,"b,f+HP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,,true

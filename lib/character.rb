@@ -1,6 +1,6 @@
 class Character
-  attr_accessor :health, :stun, :taunt, :jump, :jump_forward, :jump_backward
-  attr_accessor :dash_forward, :dash_backward
+  attr_accessor :health, :stun, :taunt, :jump, :jump_forward, :jump_backwards
+  attr_accessor :dash_forward, :dash_backwards
   attr_reader :frame_data
 
   def initialize(name)
@@ -15,23 +15,23 @@ class Character
       'taunt',
       'jump',
       'jump forward',
-      'jump backward',
+      'jump backwards',
       'dash forward',
-      'dash backward'
+      'dash backwards'
     ].include?(name.downcase)
   end
 
   def to_json
     {
       metadata_frames: {
-        h: @health,
-        s: @stun,
-        t: @taunt,
-        j: @jump,
+        h: @health || '-',
+        s: @stun || '-',
+        t: @taunt || '-',
+        j: @jump || '-',
         jf: @jump_forward,
-        jb: @jump_backward,
+        jb: @jump_backwards,
         df: @dash_forward,
-        db: @dash_backward
+        db: @dash_backwards
       },
       attack_frames: frame_data.map(&:hashify)
     }.to_json
