@@ -45,18 +45,14 @@ air tatsumaki senpukyaku MK,qcb+MK(air),9,2(5)2(5)2,-,-,-,80,100,,10,20,H,-,-,96
 air tatsumaki senpukyaku HK,qcb+HK(air),9,2(4)2(4)2,-,-,-,80,100,,10,20,H,-,-,96,120,-,,
 air tatsumaki senpukyaku EX,qcb+KK(air),9,2(6)2(7)2,-,-,-,90,100,,12,23,H,-,-,108,120,-,,
 guren enjikyaku,"qcf,qcf+K",5,2,44,KD,-26,340,0,,-,60,H,-,KD,346,0,31,31,31
-,,,,,,,,,,,,,,,,,,,
 health,1000,,,,,,,,,,,,,,,,,,
 stun,1000,,,,,,,,,,,,,,,,,,
 taunt,60,,,,,,,,,,,,,,,,,,
 jump,45 (3+38+4),,,,,,,,,,,,,,,,,,
 jump forward,45 (3+38+4),,,,,,,,,,,,,,,,,,
-jump backward,45 (3+38+4),,,,,,,,,,,,,,,,,,
+jump backwards,45 (3+38+4),,,,,,,,,,,,,,,,,,
 dash forward,15,,,,,,,,,,,,,,,,,,
-dash backward,24,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-V-TRIGGER,,,,,,,,,,,,,,,,,,,
+dash backwards,24,,,,,,,,,,,,,,,,,,
 hadouken,qcf+P,13,-,34,KD,-6,70,100,,,,H,CA,,,,,,,true
 hadouken EX,qcf+PP,12,-,33,KD,2,60*60,100*100,,,,H,-,,,,,,,true
 shoryuken LP,"f,d,df+LP",3,12,26,KD,-18,120*80,150*100,,,,H,CA,,,,,,,true
