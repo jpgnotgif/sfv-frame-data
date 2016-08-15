@@ -34,23 +34,23 @@ class FrameDatum
     name = (@vtrigger_attack ? "#{@name}_vtrigger" : @name).gsub(/(\()|(\))/, '')
     {
       "#{name}": {
-        damage: @damage,
-        chip_damage: @chip_damage,
-        attack_level: @attack_level,
-        stun: @stun,
-        cancel_ability: @cancel_ability,
-        counter_hit_damage: @counter_hit_damage,
-        counter_hit_stun: @counter_hit_stun,
+        d: @damage,
+        cd: @chip_damage,
+        al: @attack_level,
+        s: @stun,
+        ca: @cancel_ability,
+        chd: @counter_hit_damage,
+        chs: @counter_hit_stun,
         frames: {
-          startup: @startup,
-          active: @active,
-          recovery: @recovery,
-          block_advantage: @block_advantage,
-          hit_advantage: @hit_advantage,
-          counter_hit_advantage: @counter_hit_advantage,
-          knockdown_advantage: @knockdown_advantage,
-          knockdown_recovery_advantage: @knockdown_recovery_advantage,
-          knockdown_recovery_back_advantage: @knockdown_recovery_back_advantage
+          s: @startup,
+          a: @active,
+          r: @recovery,
+          ba: @block_advantage,
+          ha: @hit_advantage,
+          cha: @counter_hit_advantage,
+          kda: @knockdown_advantage,
+          kdra: @knockdown_recovery_advantage,
+          kdrba: @knockdown_recovery_back_advantage
         }
       }
     }
