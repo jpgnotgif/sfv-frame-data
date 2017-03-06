@@ -1,6 +1,6 @@
 module Transform
   def transform(name)
-    is_normal_attack = normal_attack?(name)
+    return unless name
     case name
     when /stand/
       name = name.gsub(/stand/, 'st.')
@@ -15,12 +15,33 @@ module Transform
     else
       name
     end
-    name = (is_normal_attack ? name.gsub(/\s+/, '') : name.gsub(/\s+/, '_')).downcase
+    name = (normal_attack?(name) ? name.gsub(/\s+/, '') : name.gsub(/\s+/, '_')).downcase
+  end
+
+  def normalize!(value)
+    if value && !value.empty?
+      value.to_s.downcase
+    else
+      nil
+    end
+  end
+
+  def rename_with_vtrigger(value)
+    (vtrigger_attack?(value) ? "#{value}_vtrigger" : value).gsub(/(\()|(\))/, '')
   end
 
   def normal_attack?(name)
-    name =~ /^stand/ ||
-    name =~ /^crouch/ ||
-    name =~ /^jump/
+    /^st/.match?(name) ||
+    /^cr/.match?(name) ||
+    /^j/.match?(name)
+  end
+
+  def numberify!(value)
+    (value =~ /\d+/) ? value.to_i : nil
+  end
+
+  private
+  def vtrigger_attack?(value)
+    value =~ /^vtrigger/
   end
 end

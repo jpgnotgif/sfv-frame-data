@@ -5,8 +5,8 @@ require 'csv'
 require 'json'
 require 'optparse'
 
-require File.join(File.dirname(__FILE__), '../lib/character')
-require File.join(File.dirname(__FILE__), '../lib/frame_datum')
+require_relative '../lib/character'
+require_relative '../lib/frame_datum'
 
 @schema = {}
 @logger = Logger.new($stdout)
@@ -40,9 +40,13 @@ OptionParser.new do |opts|
   opts.on("-d", "--dump-schema", "Dump schema stdout") do
     options[:dump_schema] = true
   end
+  opts.on('-sSEASON', '--season=SEASON', 'Set season for data') do |s|
+    options[:season] = s
+  end
 end.parse!
 
 @logger.info("Generating data for #{character_name.inspect}")
+season = options[:season] || 1
 character = Character.new(character_name);
 
 CSV.foreach(file, headers: {first_row: true}) do |row|
@@ -57,20 +61,6 @@ CSV.foreach(file, headers: {first_row: true}) do |row|
   end
 end
 
-move_list = character.moves.join("\n")
-filename = "sfv-#{character.name}-move-list.txt"
-
-begin
-  gist = Gist.gist(move_list, filename: filename)
-  url = gist['files'][filename]['raw_url']
-  character.move_list_url = url
-  @logger.info("Generated gist for #{filename}: #{url}")
-rescue Gist::Error => gist_error
-  @logger.error("Failed to generate gist for #{filename}")
-  gist_error.backtrace.each { |trace| @logger.error(trace) }
-  exit(1)
-end
-
-json_path = File.join(Dir.pwd, 'sfv', 'json', "#{character.name}.json")
+json_path = File.join(Dir.pwd, 'sfv', "s#{season}", 'json', "#{character.name}.json")
 @logger.info("Writing frame data to #{json_path}")
 File.open(json_path, 'w+') { |f| f.write(character.to_json) }
