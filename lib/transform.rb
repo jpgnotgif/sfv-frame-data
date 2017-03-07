@@ -15,7 +15,7 @@ module Transform
     else
       name
     end
-    name = (normal_attack?(name) ? name.gsub(/\s+/, '') : name.gsub(/\s+/, '_')).downcase
+    name = name.gsub(/\s+/, '_').gsub(/\.+/, '').downcase
   end
 
   def normalize!(value)
@@ -26,22 +26,19 @@ module Transform
     end
   end
 
-  def rename_with_vtrigger(value)
-    (vtrigger_attack?(value) ? "#{value}_vtrigger" : value).gsub(/(\()|(\))/, '')
-  end
-
-  def normal_attack?(name)
-    /^st/.match?(name) ||
-    /^cr/.match?(name) ||
-    /^j/.match?(name)
+  def rename_in_vsystem(value)
+    if value == 'vs'
+      value = 'vskill'
+    elsif /vs\_\.+/.match?(value)
+      value = value.gsub('vs_', '')
+      value = "vskill_#{value}"
+    elsif value == 'vr'
+      value = 'vreversal'
+    end
+    value
   end
 
   def numberify!(value)
     (value =~ /\d+/) ? value.to_i : nil
-  end
-
-  private
-  def vtrigger_attack?(value)
-    value =~ /^vtrigger/
   end
 end

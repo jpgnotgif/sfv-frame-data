@@ -12,13 +12,6 @@ require_relative '../lib/frame_datum'
 @logger = Logger.new($stdout)
 @logger.level = Logger::INFO
 
-begin
-  require 'gist'
-rescue LoadError => load_error
-  @logger.error('Unable to require gist gem...skipping')
-  load_error.backtrace.each { |trace| @logger.error(trace) }
-end
-
 # start
 file = ARGV[0]
 
@@ -50,12 +43,12 @@ season = options[:season] || 1
 character = Character.new(character_name);
 
 CSV.foreach(file, headers: {first_row: true}) do |row|
-  name = row[0]
+  name = row['Move']
   next unless name
 
   if character.metadata_row?(name)
     name.gsub!(/\s+/, '_')
-    character.send("#{name.to_sym}=", row[1])
+    character.send("#{name.downcase.to_sym}=", row[1])
   else
     character.frame_data << FrameDatum.new(row)
   end

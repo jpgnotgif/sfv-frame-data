@@ -13,27 +13,27 @@ class FrameDatum
 
   def initialize(row)
     @row = row
-    @name                              = transform(row[0])
-    @damage                            = numberify!(row[9])
-    @chip_damage                       = numberify!(row[11])
-    @attack_level                      = normalize!(row[15])
-    @stun                              = numberify!(row[10])
-    @cancel_ability                    = normalize!(row[16])
-    @startup                           = numberify!(row[2])
-    @active                            = numberify!(row[3])
-    @recovery                          = numberify!(row[4])
-    @block_advantage                   = numberify!(row[7])
-    @hit_advantage                     = numberify!(row[5])
-    @counter_hit_advantage             = numberify!(row[6])
-    @counter_hit_damage                = numberify!(row[11])
-    @counter_hit_stun                  = numberify!(row[12])
-    @knockdown_advantage               = numberify!(row[17])
-    @knockdown_recovery_advantage      = numberify!(row[18])
-    @knockdown_recovery_back_advantage = numberify!(row[19])
+    @name                              = transform(row['Move'])
+    @damage                            = numberify!(row['Damage'])
+    @chip_damage                       = numberify!(row['Chip'])
+    @attack_level                      = normalize!(row['Attack Level'])
+    @stun                              = numberify!(row['Stun'])
+    @cancel_ability                    = normalize!(row['Cancel Ability'])
+    @startup                           = numberify!(row['Startup'])
+    @active                            = numberify!(row['Active'])
+    @recovery                          = numberify!(row['Recovery'])
+    @block_advantage                   = numberify!(row['Block Advantage'])
+    @hit_advantage                     = numberify!(row['Hit Advantage'])
+    @counter_hit_advantage             = numberify!(row['CH hit adv.'])
+    @counter_hit_damage                = numberify!(row['CH Damage'])
+    @counter_hit_stun                  = numberify!(row['CH Stun'])
+    @knockdown_advantage               = numberify!(row['KD Adv.'])
+    @knockdown_recovery_advantage      = numberify!(row['KDR Adv.'])
+    @knockdown_recovery_back_advantage = numberify!(row['KDRB Adv.'])
   end
 
   def pretty_hashify
-    name = rename_with_vtrigger(@name)
+    name = rename_in_vsystem(@name)
     data = {
       "#{name}": {
         damage: @damage,
