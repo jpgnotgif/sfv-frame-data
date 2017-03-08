@@ -1,23 +1,14 @@
 Move,Command,Startup,Active,Recovery,Hit Advantage,CH hit adv.,Block Advantage, Damage,Stun,Total ,Attack Level,Cancel Ability,KD Adv.,KDR Adv.,KDRB Adv.,Note
 stand LP,,4,2,7,4,6,3,30,70,12,H,CH,SP,V,-,-,-,5LP 123(45)(67890) CHAIN 123(45)(67890)/(11-12)
-stand LP CHAIN LP 1,5LP 5LP,4,2(8)2,7,,,,,,22,,,,,,
-stand LP CHAIN LP 2,5LP 5LP 5LP,4,2(8)2(8)2,7,,,,,,32,,,,,,
-stand LP CHAIN LP 3,5LP 5LP 5LP 5LP,4,2(8)2(8)2(8)2,7,,,,,,42,,,,,,
 stand MP,,5,2,14,6,8,3,60,100,20,H,SP,V,-,-,-,
 stand HP,,8,2,19,2,17,0,80,150,28,H,SP,V,-,-,-,
 stand LK,,3,3,9,4,6,2,30,70,14,H,V,-,-,-,
 stand MK,,8,3,15,2,4,-2,60,100,25,H,V,-,-,-,
 stand HK,,16,2,22,2,KD,-4,90,150,39,H,V,107,48,53,
 crouch LP,,4,3,5,4,6,2,30,70,11,H,CH,SP,V,-,-,-,2LP 123(456)(7890) CHAIN 123(456)(7890)/(11)
-crouch LP CHAIN LP 1,2LP 2LP,4,3(7)3,5,,,,,,21,,,,,,
-crouch LP CHAIN LP 2,2LP 2LP 2LP,4,3(7)3(7)3,5,,,,,,31,,,,,,
-crouch LP CHAIN LP 3,2LP 2LP 2LP 2LP,4,3(7)3(7)3(7)3,5,,,,,,41,,,,,,
 crouch MP,,7,3,15,3,5,1,60,100,24,H,SP,V,-,-,-,
 crouch HP,,9,2(1)2,22,7,20,-2,40*40,50*100,35,H,SP,V,-,-,-,HIT 2 CC
 crouch LK,,4,2,8,2,4,0,20,70,13,L,CH,V,-,-,-,2LK 123(45)(6789) CHAIN 1(23)(456789)/(10-11)
-crouch LK CHAIN LK 1,2LK,4,2(5)2,8,,,,,,20,,,,,,
-crouch LK CHAIN LK 2,2LK 2LK,4,2(5)2(7)2,8,,,,,,29,,,,,,
-crouch LK CHAIN LK 3,2LK 2LK 2LK,4,2(5)2(7)2(7)2,8,,,,,,38,,,,,,
 crouch MK,,6,2,15,1,3,-3,50,100,22,L,SP,V,-,-,-,
 crouch HK,,7,2,25,KD,KD,-12,90,150,33,L,V,67,18,23,
 jump LP,,4,4,-,-,-,-,40,70,,M,SP,-,-,-,
@@ -60,7 +51,7 @@ whirlwind shot LK,qcf+LK,17,1,35,-2,0,-5,60,100,52,H,CA,-,-,-,
 whirlwind shot MK,qcf+MK,23,1,37,1,1,-2,35*35,70*70,60,H,CA,-,-,-,
 whirlwind shot HK,qcf+HK,34,1,36,4,4,1,35*35,70*70,70,H,CA,-,-,-,
 whirlwind shot EX,qcf+KK,23,1,38,9,9,6,30*30*30,60*60*60,61,H,-,-,-,-,
-altair,qcf,qcf+P,8,30,43,KD,KD,-51,330,0,80,H,-,71,12,12,
+altair,"qcf,qcf+P",8,30,43,KD,KD,-51,330,0,80,H,-,71,12,12,
 health,950,,,,,,,,,,,,,,,
 stun,1000,,,,,,,,,,,,,,,
 taunt,61,,,,,,,,,61,,,,,,

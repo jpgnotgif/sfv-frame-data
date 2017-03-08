@@ -54,7 +54,7 @@ tragedy assault LP,f,d,df+LP,18,2,23,KD,-5,70*30,0*100,42,-,0,H,-,KD,70*30,0*100
 tragedy assault MP,f,d,df+MP,22,2,26,KD,-6,90*30,0*100,49,-,0,H,-,KD,90*30,0*100,57,8,8,LAND 1F NO MOVE
 tragedy assault HP,f,d,df+HP,34,2,28,KD,-8,120*30,0*100,63,-,0,H,-,KD,120*30,0*100,57,8,8,LAND 1F NO MOVE
 tragedy assault EX,f,d,df+PP,8,3(17)2,48,KD,-23,40*50*30,0*0*100,77,-,10*0,H*H*H,V,KD,40*50*30,0*0*100,96,37,37,
-judegement saber,qcb,qcb+P,10,3,40,KD,-31,340,0,52,-,60,H,-,KD,340,0,24,24,24,
+judegement saber,"qcb,qcb+P",10,3,40,KD,-31,340,0,52,-,60,H,-,KD,340,0,24,24,24,
 health,950,,,,,,,,,,,,,,,,,,,
 stun,950,,,,,,,,,,,,,,,,,,,
 taunt,60,,,,,,,,,,,,,,,,,,,
