@@ -60,12 +60,12 @@ yoga gale LP IAT,hcb+LP (air),47,14,9,KD,KD,16,80,200,96,240,20,69,14,H,CA,114,5
 yoga gale MP IAT,hcb+MP (air),49,16,5,KD,KD,18,90,200,108,240,23,69,14,H,CA,116,57,62,
 yoga gale LP 9J IAT,hcb+LP (air),46,14,9,KD,KD,16,80,200,96,240,20,68,14,H,CA,114,55,60,
 yoga gale MP 9J IAT,hcb+MP (air),48,16,5,KD,KD,18,90,200,108,240,23,68,14,H,CA,116,56,62,
-yoga teleport,b,d,db+PPP or f,d,df+PPP or KKK,,,53,,-,-,,,-,-,-,53,-,-,-,,,,[FRAME 1-4] HIT INV [FRAME 4-28] ALL INV
-yoga teleport BKKK,b,d,db+KKK,,,58,,-,-,,,-,-,-,58,-,-,-,,,,[FRAME 1-4] HIT INV [FRAME 4-28] ALL INV
-yoga teleport AIR,b,d,db or f,d,df+PPP or KKK,6,17,7,,-,-,,,-,-,-,29,-,-,-,,,,[FRAME 9-22] ALL INV [FRAME 30] ATTACK FRAME 1
-yoga teleport 8J,b,d,db or f,d,df+PPP or KKK,11,17,19,,-,-,,,-,-,-,46,-,-,-,,,,[FRAME 1-5] JUMP [FRAME 14-27] ALL INV [FRAME 35] ATTACK FRAME 1 [FRAME 44-47] LAND
-yoga teleport 9J,b,d,db or f,d,df+PPP or KKK,10,17,19,,-,-,,,-,-,-,45,-,-,-,,,,[FRAME 1-4] JUMP [FRAME 13-26] ALL INV [FRAME 34] ATTACK FRAME 1 [FRAME 43-46] LAND
-yoga sunburst,qcf,qcf+P (can hold) (air),10,1,40,KD,KD,9,300,0,310,0,52,50,,H,,108,49,54,[FRAME 1-4] ALL INV [FRAME 5-9] HIT PROJ INV
+yoga teleport,"b,d,db+PPP or f,d,df+PPP or KKK",,,53,,-,-,,,-,-,-,53,-,-,-,,,,[FRAME 1-4] HIT INV [FRAME 4-28] ALL INV
+yoga teleport BKKK,"b,d,db+KKK",,,58,,-,-,,,-,-,-,58,-,-,-,,,,[FRAME 1-4] HIT INV [FRAME 4-28] ALL INV
+yoga teleport AIR,"b,d,db or f,d,df+PPP or KKK",6,17,7,,-,-,,,-,-,-,29,-,-,-,,,,[FRAME 9-22] ALL INV [FRAME 30] ATTACK FRAME 1
+yoga teleport 8J,"b,d,db or f,d,df+PPP or KKK",11,17,19,,-,-,,,-,-,-,46,-,-,-,,,,[FRAME 1-5] JUMP [FRAME 14-27] ALL INV [FRAME 35] ATTACK FRAME 1 [FRAME 44-47] LAND
+yoga teleport 9J,"b,d,db or f,d,df+PPP or KKK",10,17,19,,-,-,,,-,-,-,45,-,-,-,,,,[FRAME 1-4] JUMP [FRAME 13-26] ALL INV [FRAME 34] ATTACK FRAME 1 [FRAME 43-46] LAND
+yoga sunburst,"qcf,qcf+P (can hold) (air)",10,1,40,KD,KD,9,300,0,310,0,52,50,,H,,108,49,54,[FRAME 1-4] ALL INV [FRAME 5-9] HIT PROJ INV
 health,925,,,,,,,,,,,,,,,,,,,
 stun,950,,,,,,,,,,,,,,,,,,,
 taunt,61,,,,,,,,,,,,61,,,,,,,

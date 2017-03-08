@@ -43,7 +43,7 @@ psycho inferno LP,qcb+LP,14,12,31,KD,-12,30*30*30,20*20*60,,4*4*4,8*8*8,H,CA,V,K
 psycho inferno MP,qcb+MP,16,14,29,KD,-11,25x4,20x3*40,,4x4,6x4,H,CA,V,KD,30*25x3,24*20*20*40,99,40,45,
 psycho inferno HP,qcb+HP,18,16,30,KD,-10,20x4*30,20x5,,4x5,5x4*8,H,CA,V,KD,24*20x3*30,24*20x4,101,42,47,
 psycho inferno EX,qcb+PP,15,18,22,KD,-1,20x4*60,20x4*70,,3x4*4,5x4*15,H,V,KD,24*20x3*60,24*20x3*70,110,51,56,
-ultimate psycho crusher,qcf,qcf+P,6,30,48,KD,-40,340,0,,-,20x3,H,-,KD,346,0,27,27,27,
+ultimate psycho crusher,"qcf,qcf+P",6,30,48,KD,-40,340,0,,-,20x3,H,-,KD,346,0,27,27,27,
 health,1000,,,,,,,,,,,,,,,,,,,
 stun,950,,,,,,,,,,,,,,,,,,,
 taunt,61,,,,,,,,,,,,,,,,,,,

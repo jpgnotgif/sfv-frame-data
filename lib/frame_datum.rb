@@ -8,34 +8,36 @@ class FrameDatum
   attr_reader :block_advantage, :hit_advantage, :counter_hit_advantage
   attr_reader :counter_hit_damage, :counter_hit_stun, :knockdown_advantage
   attr_reader :knockdown_recovery_advantage, :knockdown_recovery_back_advantage
-  attr_reader :chip_damage
+  attr_reader :chip_damage, :command
   attr_reader :row
 
   def initialize(row)
     @row = row
     @name                              = transform(row['Move'])
-    @damage                            = numberify!(row['Damage'])
-    @chip_damage                       = numberify!(row['Chip'])
+    @command                           = normalize!(row['Command'])
+    @damage                            = find_value_and_normalize!(:damage, row)
+    @chip_damage                       = normalize!(row['Chip'])
     @attack_level                      = normalize!(row['Attack Level'])
-    @stun                              = numberify!(row['Stun'])
+    @stun                              = find_value_and_normalize!(:stun, row)
     @cancel_ability                    = normalize!(row['Cancel Ability'])
-    @startup                           = numberify!(row['Startup'])
-    @active                            = numberify!(row['Active'])
-    @recovery                          = numberify!(row['Recovery'])
-    @block_advantage                   = numberify!(row['Block Advantage'])
-    @hit_advantage                     = numberify!(row['Hit Advantage'])
-    @counter_hit_advantage             = numberify!(row['CH hit adv.'])
-    @counter_hit_damage                = numberify!(row['CH Damage'])
-    @counter_hit_stun                  = numberify!(row['CH Stun'])
-    @knockdown_advantage               = numberify!(row['KD Adv.'])
-    @knockdown_recovery_advantage      = numberify!(row['KDR Adv.'])
-    @knockdown_recovery_back_advantage = numberify!(row['KDRB Adv.'])
+    @startup                           = normalize!(row['Startup'])
+    @active                            = normalize!(row['Active'])
+    @recovery                          = normalize!(row['Recovery'])
+    @block_advantage                   = find_value_and_normalize!(:block_advantage, row)
+    @hit_advantage                     = find_value_and_normalize!(:hit_advantage, row)
+    @counter_hit_advantage             = find_value_and_normalize!(:counter_hit_advantage, row)
+    @counter_hit_damage                = find_value_and_normalize!(:counter_hit_damage, row)
+    @counter_hit_stun                  = find_value_and_normalize!(:counter_hit_stun, row)
+    @knockdown_advantage               = find_value_and_normalize!(:knockdown_advantage, row)
+    @knockdown_recovery_advantage      = find_value_and_normalize!(:knockdown_recovery_advantage, row)
+    @knockdown_recovery_back_advantage = find_value_and_normalize!(:knockdown_recovery_back_advantage, row)
   end
 
   def pretty_hashify
-    name = rename_in_vsystem(@name)
+    name = rename!(@name)
     data = {
       "#{name}": {
+        command: @command,
         damage: @damage,
         chip_damage: @chip_damage,
         attack_level: @attack_level,
@@ -63,6 +65,7 @@ class FrameDatum
     name = rename_with_vtrigger(@name)
     data = {
       "#{name}": {
+        c: @command,
         d: @damage,
         cd: @chip_damage,
         al: @attack_level,

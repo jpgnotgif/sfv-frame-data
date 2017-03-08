@@ -46,21 +46,21 @@ flying buster drop,b+LP+LK (air),5,2,-,KD,51,-,-,-,140,200,-,140,200,-,-,T,-,51,
 solid puncher,HP+HK,1,1,8,,-,-,-,-,,,,-,-,9,-,-,-,-,-,-,[FRAME 1] ALL INV
 sonic blade,MP+MK,18,1,31,-5,-3,-10,-,-,40,50,7,48,60,49,8,H,-,-,-,-,PROJ 42F
 reverse back knuckle,f+PPP,16,2,23,KD,,-2,-,-,60,0,-,72,0,,12,H,-,77,18,23,CH KD ADV +80/+21/+26
-sonic boom LP,b,f+LP,10,1,28,7,9,2,28,23,50,50,8,60,60,38,8,H,CA,V,-,-,-,in VT, 36f total and +10 on hit
-sonic boom MP,b,f+MP,10,1,28,7,9,2,28,23,50,50,8,60,60,38,8,H,CA,V,-,-,-,in VT, 36f total and +10 on hit
-sonic boom HP,b,f+HP,10,1,28,7,9,2,28,23,50,50,8,60,60,38,8,H,CA,V,-,-,-,in VT, 36f total and +10 on hit
-sonic boom EX,b,f+PP,10,1,26,KD,KD,4,KD,23,50*50,50*50,8*8,60*50,60*50,36,8*8,H*H,V,107,48,53,VTC KD ADV +126/+67/+72
-somersault kick LK,d,u+LK,4,12,36,KD,KD,-28,-,-,120,200,30,144,240,51,14,H,CA,83,24,29,[FRAME 3-8] HIT PROJ INV
-somersault kick MK,d,u+MK,5,12,36,KD,KD,-28,-,-,120,200,30,144,240,52,14,H,CA,83,24,29,[FRAME 3-8] HIT PROJ INV
-somersault kick HK,d,u+HK,6,12,38,KD,KD,-30,-,-,120,200,30,144,240,55,14,H,CA,83,24,29,[FRAME 1-9] THROW PROJ INV
-somersault kick EX,d,u+KK,4,12,44,KD,KD,-37,-,-,90*60,100*100,23,108*60,120*100,59,14*14,H*H,-,85,26,31,[FRAME 1-9] ALL INV
+sonic boom LP,"b,f+LP",10,1,28,7,9,2,28,23,50,50,8,60,60,38,8,H,CA,V,-,-,-,in VT, 36f total and +10 on hit
+sonic boom MP,"b,f+MP",10,1,28,7,9,2,28,23,50,50,8,60,60,38,8,H,CA,V,-,-,-,in VT, 36f total and +10 on hit
+sonic boom HP,"b,f+HP",10,1,28,7,9,2,28,23,50,50,8,60,60,38,8,H,CA,V,-,-,-,in VT, 36f total and +10 on hit
+sonic boom EX,"b,f+PP",10,1,26,KD,KD,4,KD,23,50*50,50*50,8*8,60*50,60*50,36,8*8,H*H,V,107,48,53,VTC KD ADV +126/+67/+72
+somersault kick LK,"d,u+LK",4,12,36,KD,KD,-28,-,-,120,200,30,144,240,51,14,H,CA,83,24,29,[FRAME 3-8] HIT PROJ INV
+somersault kick MK,"d,u+MK",5,12,36,KD,KD,-28,-,-,120,200,30,144,240,52,14,H,CA,83,24,29,[FRAME 3-8] HIT PROJ INV
+somersault kick HK,"d,u+HK",6,12,38,KD,KD,-30,-,-,120,200,30,144,240,55,14,H,CA,83,24,29,[FRAME 1-9] THROW PROJ INV
+somersault kick EX,"d,u+KK",4,12,44,KD,KD,-37,-,-,90*60,100*100,23,108*60,120*100,59,14*14,H*H,-,85,26,31,[FRAME 1-9] ALL INV
 sonic cross LP,MP+MK > b,f+LP,18,27(1)1,23,KD,107?,13?,-,-,40*40,50*50,7*7,48*40,60*50,69,8*8,H*H,-,106,47,52,PROJ 27F CANCEL 36F
 sonic cross MP,MP+MK > b,f+MP,18,27(1)1,23,KD,110?,16?,-,-,40*40,50*50,7*7,48*40,60*50,69,8*8,H*H,-,106,47,52,PROJ 27F CANCEL 36F
 sonic cross HP,MP+MK > b,f+HP,18,27(1)1,23,KD,112?,15?,-,-,40*40,50*50,7*7,48*40,60*50,69,8*8,H*H,-,106,47,52,PROJ 27F CANCEL 36F
 sonic cross EX,MP+MK > b,f,PP,46,27(1)1,21,KD,118?,21,-,-,40*50*50,50*25*75,7*7*8,48*50*50,60*25*75,67,8*8*8,H*H*H,-,117,58,63,PROJ 27F CANCEL 36F
 sonic break,N or b or f+HP+HK/P,10,,,5,7,1,-,-,40,40,7,48,48,37,8,H,-,,,,
-sonic hurricane,b,f,b,f+p,7,1,98,KD,63,-41,-,-,320,0,5x5*25,328,0,105,,H,-,81,22,27,
-sonic tempest,b,f,b,f+p during VT,7,1,98,KD,107?,5,-,-,350,0,4x16,364,0,105,,H,-,107,48,53,
+sonic hurricane,"b,f,b,f+p",7,1,98,KD,63,-41,-,-,320,0,5x5*25,328,0,105,,H,-,81,22,27,
+sonic tempest,"b,f,b,f+p during VT",7,1,98,KD,107?,5,-,-,350,0,4x16,364,0,105,,H,-,107,48,53,
 health,950,,,,,,,,,,,,,,,,,,,,,
 stun,950,,,,,,,,,,,,,,,,,,,,,
 taunt,61,,,,,,,,,,,,,,,,,,,,,

@@ -42,13 +42,13 @@ end.parse!
 season = options[:season] || 1
 character = Character.new(character_name);
 
-CSV.foreach(file, headers: {first_row: true}) do |row|
+CSV.foreach(file, headers: {first_row: true}, header_converters: ->(f) { f.strip } ) do |row|
   name = row['Move']
   next unless name
 
   if character.metadata_row?(name)
     name.gsub!(/\s+/, '_')
-    character.send("#{name.downcase.to_sym}=", row[1])
+    character.send("#{name.downcase.to_sym}=", row['Command'])
   else
     character.frame_data << FrameDatum.new(row)
   end
