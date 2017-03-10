@@ -29,10 +29,6 @@ character_name = File.basename(file, '.csv')
 
 options = {}
 OptionParser.new do |opts|
-  opts.banner = 'Usage: ./sfv_parser [options] [filename]'
-  opts.on("-d", "--dump-schema", "Dump schema stdout") do
-    options[:dump_schema] = true
-  end
   opts.on('-sSEASON', '--season=SEASON', 'Set season for data') do |s|
     options[:season] = s
   end
