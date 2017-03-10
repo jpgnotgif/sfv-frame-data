@@ -4,7 +4,7 @@ class Character
 
   def initialize(name)
     @name = name
-    @frame_data = []
+    @frame_data = {}
   end
 
   def metadata_row?(name)
@@ -23,23 +23,15 @@ class Character
 
   def metadata
     @metadata ||= {
-      h: @health || '-',
-      s: @stun || '-',
+      h: @health,
+      s: @stun,
     }
-  end
-
-  def moves
-    attack_frames.map { |frame_data| frame_data.keys }.flatten
-  end
-
-  def attack_frames
-    frame_data.map(&:pretty_hashify)
   end
 
   def to_json
     {
       metadata: pretty_metadata,
-      attacks: attack_frames,
+      attacks: @frame_data,
     }.to_json
   end
 end
