@@ -14,6 +14,10 @@ module Transform
     knockdown_recovery_back_advantage:  ['KDRB Adv.', 'HIT KDBR']
   }.freeze
 
+  def identify_as_normal?(name)
+    !(/(stand.*)|(crouch.*)|(jump.*)|(dash.*)|(taunt.*)/.match(name)).nil?
+  end
+
   def transform(name)
     return unless name
     case name
@@ -22,15 +26,13 @@ module Transform
     when /crouch/
       name = name.gsub(/crouch/, 'cr.')
     when /jump forward/
-      name = name.gsub(/jump forward/, 'jf.')
+      name = name.gsub(/jump forward/, 'jump_forward')
     when /jump backward/
-      name = name.gsub(/jump backward/, 'jb.')
-    when /jump/
-      name = name.gsub(/jump/, 'j.')
+      name = name.gsub(/jump backward/, 'jump_backward')
     else
       name
     end
-    name = name.gsub(/\s+/, '_').gsub(/(\.+)|(\(+)|(\)+)/, '').downcase
+    name = name.gsub(/(\s+)|(\-+)/, '_').gsub(/(\.+)|(\(+)|(\)+)/, '').downcase
   end
 
   def find_value_and_normalize!(name, row)

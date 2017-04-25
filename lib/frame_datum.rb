@@ -9,10 +9,11 @@ class FrameDatum
   attr_reader :counter_hit_damage, :counter_hit_stun, :knockdown_advantage
   attr_reader :knockdown_recovery_advantage, :knockdown_recovery_back_advantage
   attr_reader :chip_damage, :command
-  attr_reader :row
+  attr_reader :row, :normal
 
   def initialize(row)
     @row = row
+    @normal                            = identify_as_normal?(row['Move'])
     @name                              = rename!(transform(row['Move']))
     @command                           = normalize!(row['Command'])
     @damage                            = find_value_and_normalize!(:damage, row)
@@ -36,6 +37,7 @@ class FrameDatum
   def to_h
     data = {
       command: @command,
+      normal: @normal,
       damage: @damage,
       chip_damage: @chip_damage,
       attack_level: @attack_level,
