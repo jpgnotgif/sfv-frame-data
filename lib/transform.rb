@@ -21,10 +21,6 @@ module Transform
   def transform(name)
     return unless name
     case name
-    when /stand/
-      name = name.gsub(/stand/, 'st.')
-    when /crouch/
-      name = name.gsub(/crouch/, 'cr.')
     when /jump forward/
       name = name.gsub(/jump forward/, 'jump_forward')
     when /jump backward/
