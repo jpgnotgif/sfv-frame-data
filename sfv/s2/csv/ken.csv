@@ -54,15 +54,15 @@ jump forward,45 (3+38+4),41,1,4,,,,,45,,,,,,,,,,,
 jump backward,46 (4+38+4),42,1,4,,,,,46,,,,,,,,,,,
 dash forward,15,,15,,,,,,15,,,,,,,,,,,
 dash backward,24,,24,,,,,,24,,,,,,,,,,,
-VT hadouken,qcf+P,13,-,34,KD,-6,70,100,,,,H,CA,,,,,,,
-VT hadouken EX,qcf+PP,12,-,33,KD,2,60*60,100*100,,,,H,-,,,,,,,
-VT shoryuken LP,"f,d,df+LP",3,12,26,KD,-18,120*80,150*100,,,,H,CA,,,,91,32,37,
-VT shoryuken MP,"f,d,df+MP",4,13,41,KD,-31,100*50,75*75,,,,H,CA,,,,91,32,37,[FRAME 1-5] ALL INV [FRAME 8-39] AIR
-VT shoryuken HP,"f,d,df+HP",4,14,49,KD,-39,40*30x4,30x5,,,,H,CA,,,,93,34,39,[FRAME 1-3] ALL INV [FRAME 8-48] AIR
-VT shoryuken EX,"f,d,df+PP",4,8(18)11,56,KD,-42,20x8*10,20x8*10,,,,H,-,,,,83,24,29,
-VT tatsumaki senpukyaku LK,qcb+LK,3,2(5)4(2)2,15,KD,-8,50*40,75*75,,,,H,CA,,,,98,39,44,
-VT tatsumaki senpukyaku MK,qcb+MK,6,2(5)5(1)3(3)3(3)3,25,KD,-9,40*40*40,50*50*100,,,,H,CA,,,,95,36,41,
-VT tatsumaki senpukyaku HK,qcb+HK,13,4(12)2(10)2(11)3,21,KD,-2,50*40*40*30,100*50x3,,,,H,CA,,,,77,18,23,
-VT tatsumaki senpukyaku EX,qcb+KK,6,5(8)3(4)3(3)3(5)2,46,KD,-59,40*50*50*40,50x4,,,,H,-,,,,92,33,38,BUG NO MOVE 1F
-VT air tatsumaki senpukyaku,qcb+K (air),9,,-,KD,-,100,150,,,,H,-,,,,,,,
-VT air tatsumaki senpukyaku EX,qcb+KK (air),8,,-,KD,-,55*2,100*100,,,,H,-,,,,,,,
+hadouken,qcf+P,13,-,34,KD,-6,70,100,,,,H,CA,,,,,,,,true
+hadouken EX,qcf+PP,12,-,33,KD,2,60*60,100*100,,,,H,-,,,,,,,true
+shoryuken LP,"f,d,df+LP",3,12,26,KD,-18,120*80,150*100,,,,H,CA,,,,91,32,37,true
+shoryuken MP,"f,d,df+MP",4,13,41,KD,-31,100*50,75*75,,,,H,CA,,,,91,32,37,[FRAME 1-5] ALL INV [FRAME 8-39] AIR,true
+shoryuken HP,"f,d,df+HP",4,14,49,KD,-39,40*30x4,30x5,,,,H,CA,,,,93,34,39,[FRAME 1-3] ALL INV [FRAME 8-48] AIR,true
+shoryuken EX,"f,d,df+PP",4,8(18)11,56,KD,-42,20x8*10,20x8*10,,,,H,-,,,,83,24,29,true
+tatsumaki senpukyaku LK,qcb+LK,3,2(5)4(2)2,15,KD,-8,50*40,75*75,,,,H,CA,,,,98,39,44,true
+tatsumaki senpukyaku MK,qcb+MK,6,2(5)5(1)3(3)3(3)3,25,KD,-9,40*40*40,50*50*100,,,,H,CA,,,,95,36,41,true
+tatsumaki senpukyaku HK,qcb+HK,13,4(12)2(10)2(11)3,21,KD,-2,50*40*40*30,100*50x3,,,,H,CA,,,,77,18,23,true
+tatsumaki senpukyaku EX,qcb+KK,6,5(8)3(4)3(3)3(5)2,46,KD,-59,40*50*50*40,50x4,,,,H,-,,,,92,33,38,BUG NO MOVE 1F,true
+air tatsumaki senpukyaku,qcb+K (air),9,,-,KD,-,100,150,,,,H,-,,,,,,,true
+air tatsumaki senpukyaku EX,qcb+KK (air),8,,-,KD,-,55*2,100*100,,,,H,-,,,,,,,true

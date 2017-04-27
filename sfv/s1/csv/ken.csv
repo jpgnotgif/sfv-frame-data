@@ -53,15 +53,15 @@ jump forward,45 (3+38+4),,,,,,,,,,,,,,,,,,
 jump backwards,45 (3+38+4),,,,,,,,,,,,,,,,,,
 dash forward,15,,,,,,,,,,,,,,,,,,
 dash backwards,24,,,,,,,,,,,,,,,,,,
-hadouken,qcf+P,13,-,34,KD,-6,70,100,,,,H,CA,,,,,,,true
-hadouken EX,qcf+PP,12,-,33,KD,2,60*60,100*100,,,,H,-,,,,,,,true
-shoryuken LP,"f,d,df+LP",3,12,26,KD,-18,120*80,150*100,,,,H,CA,,,,,,,true
-shoryuken MP,"f,d,df+MP",4,13,41,KD,-31,100*50,75*75,,,,H,CA,,,,,,,true
-shoryuken HP,"f,d,df+HP",4,14,49,KD,-39,40*30x4,30x5,,,,H,CA,,,,,,,true
-shoryuken EX,"f,d,df+PP",4,8(18)11,56,KD,-42,20x8*10,20x8*10,,,,H,-,,,,,,,true
-tatsumaki senpukyaku LK,qcb+LK,3,2(5)4(2)2,15,KD,-8,50*40,75*75,,,,H,CA,,,,,,,true
-tatsumaki senpukyaku MK,qcb+MK,6,2(5)5(1)3(3)3(3)3,25,KD,-9,40*40*40,50*50*100,,,,H,CA,,,,,,,true
-tatsumaki senpukyaku HK,qcb+HK,13,4(12)2(10)2(11)3,21,KD,-2,50*40*40*30,100*50x3,,,,H,CA,,,,,,,true
-tatsumaki senpukyaku EX,qcb+KK,6,5(8)3(4)3(3)3(5)2,46,KD,-59,40*50*50*40,50x4,,,,H,-,,,,,,,true
-air tatsumaki senpukyaku,qcb+K (air),9,,-,KD,-,100,150,,,,H,-,,,,,,,true
-air tatsumaki senpukyaku EX,qcb+KK (air),8,,-,KD,-,55*2,100*100,,,,H,-,,,,,,,true
+vt hadouken,qcf+P,13,-,34,KD,-6,70,100,,,,H,CA,,,,,,,true
+vt hadouken EX,qcf+PP,12,-,33,KD,2,60*60,100*100,,,,H,-,,,,,,,true
+vt shoryuken LP,"f,d,df+LP",3,12,26,KD,-18,120*80,150*100,,,,H,CA,,,,,,,true
+vt shoryuken MP,"f,d,df+MP",4,13,41,KD,-31,100*50,75*75,,,,H,CA,,,,,,,true
+vt shoryuken HP,"f,d,df+HP",4,14,49,KD,-39,40*30x4,30x5,,,,H,CA,,,,,,,true
+vt shoryuken EX,"f,d,df+PP",4,8(18)11,56,KD,-42,20x8*10,20x8*10,,,,H,-,,,,,,,true
+vt tatsumaki senpukyaku LK,qcb+LK,3,2(5)4(2)2,15,KD,-8,50*40,75*75,,,,H,CA,,,,,,,true
+vt tatsumaki senpukyaku MK,qcb+MK,6,2(5)5(1)3(3)3(3)3,25,KD,-9,40*40*40,50*50*100,,,,H,CA,,,,,,,true
+vt tatsumaki senpukyaku HK,qcb+HK,13,4(12)2(10)2(11)3,21,KD,-2,50*40*40*30,100*50x3,,,,H,CA,,,,,,,true
+vt tatsumaki senpukyaku EX,qcb+KK,6,5(8)3(4)3(3)3(5)2,46,KD,-59,40*50*50*40,50x4,,,,H,-,,,,,,,true
+vt air tatsumaki senpukyaku,qcb+K (air),9,,-,KD,-,100,150,,,,H,-,,,,,,,true
+vt air tatsumaki senpukyaku EX,qcb+KK (air),8,,-,KD,-,55*2,100*100,,,,H,-,,,,,,,true

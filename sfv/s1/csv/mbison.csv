@@ -52,22 +52,22 @@ jump forward,46 (3+39+4),,,,,,,,,,,,,,,,,,
 jump backward,46 (3+39+4),,,,,,,,,,,,,,,,,,
 dash forward,22,,,,,,,,,,,,,,,,,,
 dash backward,22,,,,,,,,,,,,,,,,,,
-psycho blast LP,"b,f+LP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,,true
-psycho blast MP,"b,f+MP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,,true
-psycho blast HP,"b,f+HP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,,true
-psycho blast EX,"b,f+PP",14,-,29,KD,0,130,150,,,,H,-,,,,,,,true
-double knee press LK,"b,f+LK",16,2(1)3,19,3,-4,,50*50,,,,H*H,CA,,,,,,,true
-double knee press MK,"b,f+MK",19,2(1)3,20,3,-3,,50*50,,,,H*H,CA,,,,,,,true
-double knee press HK,"b,f+HK",22,2(1)3,22,3,-2,,50*50,,,,H*H,CA,,,,,,,true
-double knee press EX,"b,f+KK",13,2(1)4,15,KD,3,,,,,,H*H,-,,,,,,,true
-head press LK,"d,u+LK",38,-,-,KD,-,120,200,,,,M,CA,,,,,,,true
-head press MK,"d,u+MK",38,-,-,KD,-,120,200,,,,M,CA,,,,,,,true
-head press HK,"d,u+HK",38,-,-,KD,-,120,200,,,,M,CA,,,,,,,true
-head press EX,"d,u+KK",35,-,-,KD,-,,,,,,M,-,,,,,,,true
-somersault skull diver,P after head press,,,-,,,,,,,,M,CA,,,,,,,true
-devil reverse,P before head press,,22,-,KD,5,100,,,,,M,CA,,,,,,,true
-psycho inferno LP,qcb+LP,14,16,22,KD,-5,,,,,,H,CA,,,,,,,true
-psycho inferno MP,qcb+MP,14,16,22,KD,-5,,,,,,H,CA,,,,,,,true
-psycho inferno HP,qcb+HP,14,16,22,KD,-5,,,,,,H,CA,,,,,,,true
-psycho inferno EX,qcb+PP,18,28,19,KD,4,,,,,,H,-,,,,,,,true
-ultimate psycho crusher,"qcf,qcf+P",,,,,,,,,,,,,,,,,,,true
+vt psycho blast LP,"b,f+LP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,,true
+vt psycho blast MP,"b,f+MP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,,true
+vt psycho blast HP,"b,f+HP",11,14,13,KD,1,100,100,,,,H,CA,,,,,,,true
+vt psycho blast EX,"b,f+PP",14,-,29,KD,0,130,150,,,,H,-,,,,,,,true
+vt double knee press LK,"b,f+LK",16,2(1)3,19,3,-4,,50*50,,,,H*H,CA,,,,,,,true
+vt double knee press MK,"b,f+MK",19,2(1)3,20,3,-3,,50*50,,,,H*H,CA,,,,,,,true
+vt double knee press HK,"b,f+HK",22,2(1)3,22,3,-2,,50*50,,,,H*H,CA,,,,,,,true
+vt double knee press EX,"b,f+KK",13,2(1)4,15,KD,3,,,,,,H*H,-,,,,,,,true
+vt head press LK,"d,u+LK",38,-,-,KD,-,120,200,,,,M,CA,,,,,,,true
+vt head press MK,"d,u+MK",38,-,-,KD,-,120,200,,,,M,CA,,,,,,,true
+vt head press HK,"d,u+HK",38,-,-,KD,-,120,200,,,,M,CA,,,,,,,true
+vt head press EX,"d,u+KK",35,-,-,KD,-,,,,,,M,-,,,,,,,true
+vt somersault skull diver,P after head press,,,-,,,,,,,,M,CA,,,,,,,true
+vt devil reverse,P before head press,,22,-,KD,5,100,,,,,M,CA,,,,,,,true
+vt psycho inferno LP,qcb+LP,14,16,22,KD,-5,,,,,,H,CA,,,,,,,true
+vt psycho inferno MP,qcb+MP,14,16,22,KD,-5,,,,,,H,CA,,,,,,,true
+vt psycho inferno HP,qcb+HP,14,16,22,KD,-5,,,,,,H,CA,,,,,,,true
+vt psycho inferno EX,qcb+PP,18,28,19,KD,4,,,,,,H,-,,,,,,,true
+vt ultimate psycho crusher,"qcf,qcf+P",,,,,,,,,,,,,,,,,,,true

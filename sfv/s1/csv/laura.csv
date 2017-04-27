@@ -54,25 +54,25 @@ jump forward,45 (3+38+4),,,,,,,,,,,,,,,,,,
 jump backwards,45 (3+38+4),,,,,,,,,,,,,,,,,,
 dash forward,17,,,,,,,,,,,,,,,,,,
 dash backwards,21,,,,,,,,,,,,,,,,,,
-step elbow,f+HP,,,,,,,,,,,,,,,,,,,true
-twist barrage,f+HP > HP,,,,,,,,,,,,,,,,,,,true
-dual crash,MP > MK,,,,,,,,,,,,,,,,,,,true
-volty line,MP+MK,,,,,,,,,,,,,,,,,,,true
-bolt charge LP,qcf+LP,,,,,,,,,,,,,,,,,,,true
-bolt charge MP,qcf+MP,,,,,,,,,,,,,,,,,,,true
-bolt charge HP,qcf+HP,,,,,,,,,,,,,,,,,,,true
-bolt charge EX,qcf+PP,,,,,,,,,,,,,,,,,,,true
-split river,qcf+MP > P,,,,,,,,,,,,,,,,,,,true
-rodeo break,qcf+MP > K,,,,,,,,,,,,,,,,,,,true
-thunder clap LP,qcb+LP,,,,,,,,,,,,,,,,,,,true
-thunder clap LP,qcb+LP (hold),,,,,,,,,,,,,,,,,,,true
-thunder clap MP,qcb+MP,,,,,,,,,,,,,,,,,,,true
-thunder clap MP,qcb+MP (hold),,,,,,,,,,,,,,,,,,,true
-thunder clap HP,qcb+HP,,,,,,,,,,,,,,,,,,,true
-thunder clap HP,qcb+HP (hold),,,,,,,,,,,,,,,,,,,true
-thunder clap EX,qcb+PP,,,,,,,,,,,,,,,,,,,true
-sunset wheel LK,hcb+LK,,,,,,,,,,,,,,,,,,,true
-sunset wheel MK,hcb+MK,,,,,,,,,,,,,,,,,,,true
-sunset wheel HK,hcb+HK,,,,,,,,,,,,,,,,,,,true
-sunset wheel EX,hcb+KK,,,,,,,,,,,,,,,,,,,true
-inazuma spin hold,"qcf,qcf+K",,,,,,,,,,,,,,,,,,,true
+vt step elbow,f+HP,,,,,,,,,,,,,,,,,,,true
+vt twist barrage,f+HP > HP,,,,,,,,,,,,,,,,,,,true
+vt dual crash,MP > MK,,,,,,,,,,,,,,,,,,,true
+vt volty line,MP+MK,,,,,,,,,,,,,,,,,,,true
+vt bolt charge LP,qcf+LP,,,,,,,,,,,,,,,,,,,true
+vt bolt charge MP,qcf+MP,,,,,,,,,,,,,,,,,,,true
+vt bolt charge HP,qcf+HP,,,,,,,,,,,,,,,,,,,true
+vt bolt charge EX,qcf+PP,,,,,,,,,,,,,,,,,,,true
+vt split river,qcf+MP > P,,,,,,,,,,,,,,,,,,,true
+vt rodeo break,qcf+MP > K,,,,,,,,,,,,,,,,,,,true
+vt thunder clap LP,qcb+LP,,,,,,,,,,,,,,,,,,,true
+vt thunder clap LP,qcb+LP (hold),,,,,,,,,,,,,,,,,,,true
+vt thunder clap MP,qcb+MP,,,,,,,,,,,,,,,,,,,true
+vt thunder clap MP,qcb+MP (hold),,,,,,,,,,,,,,,,,,,true
+vt thunder clap HP,qcb+HP,,,,,,,,,,,,,,,,,,,true
+vt thunder clap HP,qcb+HP (hold),,,,,,,,,,,,,,,,,,,true
+vt thunder clap EX,qcb+PP,,,,,,,,,,,,,,,,,,,true
+vt sunset wheel LK,hcb+LK,,,,,,,,,,,,,,,,,,,true
+vt sunset wheel MK,hcb+MK,,,,,,,,,,,,,,,,,,,true
+vt sunset wheel HK,hcb+HK,,,,,,,,,,,,,,,,,,,true
+vt sunset wheel EX,hcb+KK,,,,,,,,,,,,,,,,,,,true
+vt inazuma spin hold,"qcf,qcf+K",,,,,,,,,,,,,,,,,,,true

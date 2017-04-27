@@ -58,6 +58,7 @@ GEM
     pry-byebug (3.4.2)
       byebug (~> 9.0)
       pry (~> 0.10)
+    rake (12.0.0)
     ruby_engine (1.0.1)
     ruby_info (1.0.1)
     ruby_version (1.0.1)
@@ -75,6 +76,7 @@ DEPENDENCIES
   binding_of_caller
   irbtools
   pry-byebug
+  rake
 
 RUBY VERSION
    ruby 2.4.0p0

@@ -53,43 +53,43 @@ jump forward,46 (3+39+4),42,1,4,46,,,,,,,,,,,,,EARLY WHIFF 46
 jump backward,47 (4+39+4),43,1,4,47,,,,,,,,,,,,,EARLY WHIFF 47
 dash forward,17,,17,,17,,,,,,,,,,,,,
 dash backward,22,,22,,22,,,,,,,,,,,,,
-VT jump,46 (4+38+4),42,1,4,46,,,,,,,,,,,,,EARLY WHIFF 47
-VT jump forward,45 (3+38+4),41,1,4,45,,,,,,,,,,,,,EARLY WHIFF 48
-VT jump backward,46 (4+38+4),42,1,4,46,,,,,,,,,,,,,EARLY WHIFF 49
-VT stand LP,,3,2,9,13,3,5,1,,,40,70,H,SP,,,,
-VT stand MP,,6,3,13,21,6,8,0,,,70,100,H,SP,,,,
-VT stand HP,,9,5,18,31,2,KD,-2,,,90,150,H,SP,94,35,40,
-VT stand LK,,4,4,8,15,4,6,2,,,40,70,H,-,,,,
-VT stand MK,,5,3,12,19,6,8,2,,,60,100,H,SP,,,,
-VT stand HK,,12,4,21,36,3,19,-4,,,90,150,H,-,,,,
-VT crouch LP,,3,3,7,12,3,5,1,,,30,70,H,CH,SP,,,,
-VT crouch MP,,5,2,13,19,5,7,2,,,70,100,H,SP,,,,
-VT crouch HP,,7,3,21,30,1,KD,-4,,,90,150,H,SP,96,37,42,
-VT crouch LK,,4,2,9,14,3,5,1,,,20,70,L,-,,,,
-VT crouch MK,,8,3,15,25,0,2,-4,,,50,100,L,SP,,,,
-VT crouch HK,,7,4,21,31,KD,KD,-10,,,90,150,L,-,72,23,28,
-VT jump LP,,3,6,-,,-,,-,,,50,70,M,-,,,,
-VT jump MP,,7,4,-,,-,,-,,,70,100,M,-,,,,
-VT jump HP,,7,5,-,,-,,-,,,100,150,M,-,,,,
-VT jump LK,,4,6,-,,-,,-,,,40,70,M,-,,,,
-VT jump MK,,6,5,-,,-,,-,,,60,100,M,-,,,,
-VT jump HK,,7,6,-,,-,,-,,,90,150,M,-,,,,
-VT opening dagger,df+HP,23,3,24,49,1,20,-6,,,90,150,M,-,,,,
-VT opening dagger HOLD,df+HP HOLD,38,3,18,58,7,26,2,,,100,150,M,-,,,,
-VT The Disc's Guidance LP,"b,f+LP",15,2(1)3,25,45,KD,KD,-4,,,100,150,H,-,88,29,34,
-VT The Disc's Guidance MP,"b,f+MP",17,2(2)3,26,49,KD,KD,-4,,,120,150,H,-,87,28,33,
-VT The Disc's Guidance HP,"b,f+HP",21,2(1)3,26,52,KD,KD,-4,,,140,150,H,-,87,28,33,
-VT The Disc's Guidance EX,"b,f+PP",17,2(12)2(9)2(1)3,31,78,KD,KD,-13,,,170,200,H,-,82,23,28,
-VT Raging Light LP,"f,d,df+LP",3,2(3)2,35,44,KD,KD,-24,,,120,150,H,-,90,31,36,
-VT Raging Light MP,"f,d,df+MP",5,5(1)3,41,54,KD,KD,-29,,,130,150,H,-,83,24,29,
-VT Raging Light HP,"f,d,df+HP",7,8,46,60,KD,KD,-34,,,140,150,H,-,77,18,23,
-VT Raging Light EX,"f,d,df+PP",3,10(1)3,42,58,KD,KD,-38,,,170,200,H,-,83,24,29,
-VT Mask of Tlalli LP,hcb+LK,8,2,52,61,KD,KD,-,,,150,200,T,-,50,1,1,
-VT Mask of Tlalli MP,hcb+MK,8,2,52,61,KD,KD,-,,,160,200,T,-,52,3,3,
-VT Mask of Tlalli HP,hcb+HK,8,2,52,61,KD,KD,-,,,170,200,T,-,57,8,8,
-VT Mask of Tlalli EX,hcb+KK,8,2,52,61,KD,KD,-,,,80,50,T,-,97,38,38,CORNER +93/+34/+34
-VT Valiant Rebellion LK,qcf+LK,14,4,19,36,2,4,-3,,,70,100,H,CA,,,,
-VT Valiant Rebellion MK,qcf+MK,19,5,18,41,5,7,-1,,,80,100,H,CA,,,,
-VT Valiant Rebellion HK,qcf+HK,23,6,13,41,KD,KD,2,,,100,150,H,-,95,46,51,
-VT Valiant Rebellion EX,qcf+KK,10,3(23)3,23,61,2,2,-2,,,60*80,100*100,H,-,,,,
-VT soul offering,"qcf,qcf+P",7,2,45,53,KD,KD,-25,,,370,0,H*H,-,70,21,21,
+VT jump,46 (4+38+4),42,1,4,46,,,,,,,,,,,,,EARLY WHIFF 47,true
+VT jump forward,45 (3+38+4),41,1,4,45,,,,,,,,,,,,,EARLY WHIFF 48,true
+VT jump backward,46 (4+38+4),42,1,4,46,,,,,,,,,,,,,EARLY WHIFF 49,true
+VT stand LP,,3,2,9,13,3,5,1,,,40,70,H,SP,,,,,true
+VT stand MP,,6,3,13,21,6,8,0,,,70,100,H,SP,,,,,true
+VT stand HP,,9,5,18,31,2,KD,-2,,,90,150,H,SP,94,35,40,,true
+VT stand LK,,4,4,8,15,4,6,2,,,40,70,H,-,,,,,true
+VT stand MK,,5,3,12,19,6,8,2,,,60,100,H,SP,,,,,true
+VT stand HK,,12,4,21,36,3,19,-4,,,90,150,H,-,,,,,true
+VT crouch LP,,3,3,7,12,3,5,1,,,30,70,H,CH,SP,,,,,true
+VT crouch MP,,5,2,13,19,5,7,2,,,70,100,H,SP,,,,,true
+VT crouch HP,,7,3,21,30,1,KD,-4,,,90,150,H,SP,96,37,42,,true
+VT crouch LK,,4,2,9,14,3,5,1,,,20,70,L,-,,,,,true
+VT crouch MK,,8,3,15,25,0,2,-4,,,50,100,L,SP,,,,,true
+VT crouch HK,,7,4,21,31,KD,KD,-10,,,90,150,L,-,72,23,28,,true
+VT jump LP,,3,6,-,,-,,-,,,50,70,M,-,,,,,true
+VT jump MP,,7,4,-,,-,,-,,,70,100,M,-,,,,,true
+VT jump HP,,7,5,-,,-,,-,,,100,150,M,-,,,,,true
+VT jump LK,,4,6,-,,-,,-,,,40,70,M,-,,,,,true
+VT jump MK,,6,5,-,,-,,-,,,60,100,M,-,,,,,true
+VT jump HK,,7,6,-,,-,,-,,,90,150,M,-,,,,,true
+VT opening dagger,df+HP,23,3,24,49,1,20,-6,,,90,150,M,-,,,,,true
+VT opening dagger HOLD,df+HP HOLD,38,3,18,58,7,26,2,,,100,150,M,-,,,,,true
+VT The Disc's Guidance LP,"b,f+LP",15,2(1)3,25,45,KD,KD,-4,,,100,150,H,-,88,29,34,true
+VT The Disc's Guidance MP,"b,f+MP",17,2(2)3,26,49,KD,KD,-4,,,120,150,H,-,87,28,33,true
+VT The Disc's Guidance HP,"b,f+HP",21,2(1)3,26,52,KD,KD,-4,,,140,150,H,-,87,28,33,true
+VT The Disc's Guidance EX,"b,f+PP",17,2(12)2(9)2(1)3,31,78,KD,KD,-13,,,170,200,H,-,82,23,28,true
+VT Raging Light LP,"f,d,df+LP",3,2(3)2,35,44,KD,KD,-24,,,120,150,H,-,90,31,36,true
+VT Raging Light MP,"f,d,df+MP",5,5(1)3,41,54,KD,KD,-29,,,130,150,H,-,83,24,29,true
+VT Raging Light HP,"f,d,df+HP",7,8,46,60,KD,KD,-34,,,140,150,H,-,77,18,23,true
+VT Raging Light EX,"f,d,df+PP",3,10(1)3,42,58,KD,KD,-38,,,170,200,H,-,83,24,29,true
+VT Mask of Tlalli LP,hcb+LK,8,2,52,61,KD,KD,-,,,150,200,T,-,50,1,1,true
+VT Mask of Tlalli MP,hcb+MK,8,2,52,61,KD,KD,-,,,160,200,T,-,52,3,3,true
+VT Mask of Tlalli HP,hcb+HK,8,2,52,61,KD,KD,-,,,170,200,T,-,57,8,8,true
+VT Mask of Tlalli EX,hcb+KK,8,2,52,61,KD,KD,-,,,80,50,T,-,97,38,38,CORNER +93/+34/+34,true
+VT Valiant Rebellion LK,qcf+LK,14,4,19,36,2,4,-3,,,70,100,H,CA,,,,true
+VT Valiant Rebellion MK,qcf+MK,19,5,18,41,5,7,-1,,,80,100,H,CA,,,,true
+VT Valiant Rebellion HK,qcf+HK,23,6,13,41,KD,KD,2,,,100,150,H,-,95,46,51,true
+VT Valiant Rebellion EX,qcf+KK,10,3(23)3,23,61,2,2,-2,,,60*80,100*100,H,-,,,,true
+VT soul offering,"qcf,qcf+P",7,2,45,53,KD,KD,-25,,,370,0,H*H,-,70,21,21,true
