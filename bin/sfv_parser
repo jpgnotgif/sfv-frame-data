@@ -25,7 +25,7 @@ unless File.exists?(File.path(file))
   exit(1)
 end
 
-character_name = File.basename(file, '.csv')
+character_name = File.basename(file, File.extname(file))
 
 options = {}
 OptionParser.new do |opts|
@@ -38,7 +38,13 @@ end.parse!
 season = options[:season] || 1
 character = Character.new(character_name);
 
-CSV.foreach(file, headers: {first_row: true}, header_converters: ->(f) { f.strip } ) do |row|
+options = {
+  col_sep: File.extname(file) == '.txt' ? "\t" : ",",
+  headers: {first_row: true},
+  header_converters: ->(f) { f.strip }
+}
+
+CSV.foreach(file, options) do |row|
   name = row['Move']
   next unless name
 

@@ -1,2 +1,30 @@
 frda_api:
   path: /Users/jgutierrez/src/js/frda.js/data/title/sfv/json
+
+:characters:
+  :ABG: abigail
+  :ALX: alex
+  :BLR: balrog
+  :BRD: birdie
+  :BSN: mbison
+  :CMY: cammy
+  :CNL: chun-li
+  :DSM: dhalsim
+  :ED: ed
+  :FAN: fang
+  :GOK: akuma
+  :GUL: guile
+  :IBK: ibuki
+  :JRI: juri
+  :KEN: ken
+  :KLN: kolin
+  :KRN: karin
+  :LAR: laura
+  :NCL: necalli
+  :NSH: nash
+  :RMK: rmika
+  :RSD: rashid
+  :RYU: ryu
+  :URN: urien
+  :VEG: vega
+  :ZGF: zangief

@@ -1,0 +1,139 @@
+Move	Command	Startup	Active	Recovery	Total 	Hit Advantage	CH hit adv.	Block Advantage	 Damage	Stun	KD Adv.	KDR Adv.	KDRB Adv.	Note
+dash forward	15		15		15									
+dash backward	21		21		21									
+jump	49 (4+41+4)	45	1	4	49									AIR THROW 51
+jump forward	48 (3+41+4)	44	1	4	48									AIR THROW 50
+jump backward	49 (4+41+4)	45	1	4	49									AIR THROW 51
+stand LP		4	2	8	13	5	7	2						
+stand MP		5	3	9	16	6	8	3						
+stand HP		11	2	18	30	0	2	-5						
+stand LK		5	3	7	14	1	3	-3						
+stand MK		8	3	15	25	2	4	-2						
+stand HK		12	3	16	30	1	21	-2						
+crouch LP		4	3	5	11	5	7	2						
+crouch MP		10	9	18	36	-3	-1	-8						
+crouch HP		7	2(10)2	17	37	2	2	-5						
+crouch LK		3	2	8	12	2	4	-1						
+crouch MK		6	2	16	23	0	2	-2						
+crouch HK		8	3	24	34	KD	KD	-12			65	16	21	CC KD Adv = 67f
+crouch HK CH		8	3	24		KD	KD	-12			67	67	67	
+tsuitotsuken 46MP	b or f+MP	7	2	12	20	3	5	0						
+hakkei 4HP	b+HP	7	5	13	24	3	KD	2			98	39	44	
+senenshu 3MK	df+MK	26	2	16	43	2	4	-2						
+tenkukyaku 4HK	b+HK	8	5	13	25	2	4	0						
+yokusenkyaku 6HK	f+HK	18	5	13	35	2	4	-2						
+kakurakukyaku 3HK	df+HK	34	7	10	50	8	10	4						[CORNER] RYU STAND ADV +9/+11/+5
+stand LP CHAIN 2		4	2(8)2	8	23	5	7	2						
+stand LP CHAIN 3		4	2(8)2(8)2	8	33	5	7	2						
+stand LP CHAIN 4		4	2(8)2(8)2(8)2	8	43	5	7	2						
+crouch LP CHAIN 2		4	3(6)3	5	20	5	7	2						
+crouch LP CHAIN 3		4	3(6)3(6)3	5	29	5	7	2						
+crouch LP CHAIN 4		4	3(6)3(6)3(6)3	5	38	5	7	2						
+crouch LK CHAIN 2		3	2(7)2	8	21	2	4	-1						
+crouch LK CHAIN 3		3	2(7)2(6)2	8	29	2	4	-1						
+crouch LK CHAIN 4		3	2(7)2(6)2(6)2	8	37	2	4	-1						
+jump LP		3	5	-		-	-	-						
+jump MP		6	4	-		-	-	-						
+jump HP		6	4(2)4	-		-	-	-						
+jump LK		4	7	-		-	-	-						
+jump MK		6	5	-		-	-	-						
+jump HK		6	5	-		-	-	-						
+jump f+HK		9	6	-		-	-	-						
+yosokyaku	d or df+MK during jump	5	4	-		-	-							
+wall jump	uf during jump near wall	-	-	-	-	-	-	-			-			
+koshuto 5T	LP+LK	5	2	18	24	KD	KD				64	15	15	
+tenshin shushu 4T	b+LP+LK	5	2	18		KD	KD				72	23	23	
+ryuseiraku	LP+LK(air)	5	2	-		KD	KD				70	21	21	
+sohakkei VR	f+PPP	12	2	24		2	2	-2						
+rankyaku VS	MP+MK	11	4	44	58	KD	KD	-24			71	12	17	[AIR] BLK ADV +0
+rankyaku VS THROW	MP+MK THROW	11	4	44	58	KD	KD	-24			71	12	17	[AIR] BLK ADV +0
+rankyaku VS WHIFF	MP+MK WHIFF	11	4	44	58	KD	KD	-22			73	14	19	[AIR] BLK ADV +0
+renkiko VT	HP+HK	1	1	4	5		-							[FRAME 1] ALL INV
+stand LP VTC		4	2	8		5	7	2						
+stand MP VTC		5	3	9		8	10	5						
+stand HP VTC		11	2	18		14	16	9						
+stand LK VTC		5	3	7		1	3	-3						
+stand MK VTC		8	3	15		7	9	3						
+crouch LP VTC		4	3	5		3	5	0						
+crouch MP VTC		10	9	18		5	7	0						
+crouch HP VTC		7	2(10)2	17		12	14	9						
+crouch LK VTC		3	2	8		2	4	-1						
+crouch MK VTC		6	2	16		8	10	6						
+crouch HK VTC		8	3	24		KD	KD	5			82	33	38	CC KD Adv = 67f
+crouch HK CH VTC		8	3	24		KD	KD	5			84	84	84	
+tsuitotsuken 46MP VTC	b or f+MP	7	2	12		7	9	4						
+hakkei 4HP VTC	b+HP	7	5	13		11	KD	10			98	39	44	
+tenkukyaku 4HK VTC	b+HK	8	5	13		9	11	7						
+kikoken LP	b,f+LP	13	1	33	46	0	2	-6						[VTC] ADV +24/+26/+18
+kikoken MP	b,f+MP	11	1	34	45	-1	1	-5						[VTC] ADV +24/+26/+20
+kikoken HP	b,f+HP	9	1	35	44	-2	0	-4						[VTC] ADV +24/+26/+22
+kikoken EX	b,f+PP	11	1	27	38	4	4	1						[VTC] ADV +22/+24/+19
+hyakuretsukyaku LK	qcf+LK	5	2(5)2(6)2(6)2	20	49	4	4	-8						[VTC] ADV +6/+6/+0
+hyakuretsukyaku MK	qcf+MK	11	2(4)2(4)2(4)2(4)2	20	56	3	3	-9						[VTC] ADV +6/+6/+0
+hyakuretsukyaku HK	qcf+HK	14	2(3)2(3)2(3)2(3)2(3)2	20	60	2	2	-10						[VTC] ADV +6/+6/+0
+hyakuretsukyaku EX	qcf+KK	5	2(3)2(3)2(3)2(3)2(3)2(11)2(3)2(3)2(3)2	19	78	KD	KD	-2			91	32	37	[VTC] ADV +6/+6/+4
+air hyakuretsukyaku LK	qcf+LK(air) (4+8+8)	20	2(5)2(3)2(5)2	14	54	3	3	-2						
+air hyakuretsukyaku MK	qcf+MK(air) (4+6+10)	20	2(2)2(4)2(4)2(2)2	13	54	3	3	-2						
+air hyakuretsukyaku HK	qcf+HK(air) (4+5+12)	21	2(4)2(3)2(4)2(2)2(2)2	17	64	0	0	-3						
+air hyakuretsukyaku EX	qcf+KK(air) (4+4+6)	14	2(1)2(2)2(3)2(1)2(2)2(3)2	24	63	-7	-7	-10						
+AIR LEG LK LOW 9J	UF qcf+LK(air) (3+8+8)	19	2(5)2(3)2(5)2	14	53	3	3	-2						
+AIR LEG MK LOW 9J	UF qcf+MK(air) (3+6+10)	19	2(2)2(4)2(4)2(2)2	13	53	3	3	-2						
+AIR LEG HK LOW 9J	UF qcf+HK(air) (3+5+12)	20	2(4)2(3)2(4)2(2)2(2)2	17	63	0	0	-3						
+AIR LEG EX LOW 9J	UF qcf+KK(air) (3+4+6)	13	2(1)2(2)2(3)2(1)2(2)2(3)2	24	62	-7	-7	-10						
+spinning bird kick LK	40d,u+LK	9	2(1)2(4)2(5)2(3)2	24	55	KD	KD	-6			91	32	37	
+spinning bird kick MK	40d,u+MK	15	2(1)2(4)2(4)2(3)2(6)2(5)2	24	75	KD	KD	-8			91	32	37	
+spinning bird kick HK	40d,u+HK	22	2(1)2(4)2(4)2(4)2(5)2(4)2(5)2(5)2	26	97	KD	KD	-8			91	32	37	
+spinning bird kick EX	45d,u+KK	5	7(1)4(1)4(1)2	27	51	KD	KD	-16			76	17	22	[FRAME 1-8] ALL INV [FRAME 9-33] PROJ INV
+hoyokusen	qcf,qcf+K	5	120	35	159	KD	KD	-20			99	40	40	[FRAME 1-6] ALL INV [ACTIVE] 2(3)2(4)2(4)2...
+health	950													
+stun	1000													
+taunt	61				61									
+VT stand LP		4	5	5	13	6	8	2						
+VT stand MP		5	3	9	16	8	10	3						
+VT stand HP		11	4	16	30	2	4	-5						
+VT stand LK		5	4	6	14	1	3	-3						
+VT stand MK		8	4	14	25	4	6	-2						
+VT stand HK		12	3	16	30	1	KD	-2			114	55	60	
+VT crouch LP		4	4	4	11	6	8	2						
+VT crouch MP		10	9	18	36	-3	-1	-8						
+VT crouch HP		7	2(10)2	14	34	2	2	-2						
+VT crouch LK		3	3	7	12	4	6	-1						
+VT crouch MK		6	2	14	21	4	6	-2						
+VT crouch HK		8	4	23	34	KD	KD	-12			82	23	28	
+VT tsuitotsuken 46MP	b or f+MP	7	3	11	20	4	6	0						
+VT hakkei 4HP	b+HP	7	7	11	24	6	KD	2			100	41	46	
+VT senenshu 3MK	df+MK	26	2	16	43	4	6	-2						
+VT tenkukyaku 4HK	b+HK	8	5	13	25	2	4	0						
+VT yokusenkyaku 6HK	f+HK	18	5	13	35	4	6	-2						
+VT kakurakukyaku 3HK	df+HK	34	7	10	50	8	10	4						[CORNER] RYU STAND ADV +9/+11/+5
+VT jump LP		3	5	-		-		-						
+VT jump MP		6	4	-		-		-						
+VT jump HP		6	4(2)4	-		-		-						
+VT jump LK		4	7	-		-		-						
+VT jump MK		6	5	-		-		-						
+VT jump HK		7	5	-		-		-						
+VT jump f+HK		9	6	-		-		-						
+VT rankyaku VS	MP+MK	11	4	44	58	KD	KD	-24			71	12	17	[AIR] BLK ADV +0
+VT rankyaku VS THROW	MP+MK THROW	11	4	44	58	KD	KD	-24			71	12	17	[AIR] BLK ADV +0
+VT rankyaku VS WHIFF	MP+MK WHIFF	11	4	44	58	KD	KD	-22			73	14	19	[AIR] BLK ADV +0
+VT kikoken LP	b,f+LP	13	1	33	46	0	2	-6						
+VT kikoken MP	b,f+MP	11	1	34	45	-1	1	-5						
+VT kikoken HP	b,f+HP	9	1	35	44	-2	0	-4						
+VT kikoken EX	b,f+PP	11	1	27	38	4	4	1						
+VT hyakuretsukyaku LK	qcf+LK	5	2(5)2(6)2(6)2	20	49	4	4	-8						
+VT hyakuretsukyaku MK	qcf+MK	11	2(4)2(4)2(4)2(4)2	20	56	3	3	-9						
+VT hyakuretsukyaku HK	qcf+HK	14	2(3)2(3)2(3)2(3)2(3)2	20	60	2	2	-10						
+VT hyakuretsukyaku EX	qcf+KK	5	2(3)2(3)2(3)2(3)2(3)2(11)2(3)2(3)2(3)2	19	78	KD	KD	-2			91	32	37	
+VT air hyakuretsukyaku LK	qcf+LK(air) (4+8+8)	20	2(5)2(3)2(5)2	14	54	3	3	-2						
+VT air hyakuretsukyaku MK	qcf+MK(air) (4+6+10)	20	2(2)2(4)2(4)2(2)2	13	54	3	3	-2						
+VT air hyakuretsukyaku HK	qcf+HK(air) (4+5+12)	21	2(4)2(3)2(4)2(2)2(2)2	17	64	0	0	-3						
+VT air hyakuretsukyaku EX	qcf+KK(air) (4+4+6)	14	2(2)2(1)2(3)2(1)2(2)2(3)2	24	63	-7	-7	-10						
+VT AIR LEG LK LOW 9J	UF qcf+LK(air) (3+8+8)	19	2(5)2(3)2(5)2	14	53	3	3	-2						
+VT AIR LEG MK LOW 9J	UF qcf+MK(air) (3+6+10)	19	2(2)2(4)2(4)2(2)2	13	53	3	3	-2						
+VT AIR LEG HK LOW 9J	UF qcf+HK(air) (3+5+12)	20	2(4)2(3)2(4)2(2)2(2)2	17	63	0	0	-3						
+VT AIR LEG EX LOW 9J	UF qcf+KK(air) (3+4+6)	13	2(2)2(1)2(3)2(1)2(2)2(3)2	24	62	-7	-7	-10						
+VT spinning bird kick LK	40d,u+LK	9	2(1)2(3)2(6)2(3)2	24	55	KD	KD	-6			91	32	37	
+VT spinning bird kick MK	40d,u+MK	15	2(1)2(4)2(4)2(3)2(6)2(5)2	24	75	KD	KD	-8			91	32	37	
+VT spinning bird kick HK	40d,u+HK	19	2(1)2(4)2(4)2(4)2(5)2(3)2(6)2(5)2	24	92	KD	KD	-8			91	32	37	
+VT spinning bird kick EX	45d,u+KK	5	7(1)4(1)4(1)2	31	55	KD	KD	-16			76	17	22	
+VT hoyokusen	qcf,qcf+K	5	120	35	159									[FRAME 1-6] ALL INV [ACTIVE] 2(3)2(4)2(4)2...

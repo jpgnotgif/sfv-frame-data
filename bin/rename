@@ -1,0 +1,36 @@
+#! /usr/bin/env ruby
+
+require 'logger'
+require 'yaml'
+
+@logger = Logger.new($stdout)
+@logger.level = Logger::INFO
+
+begin
+  file = ARGV[0] || File.join(Dir.pwd, 'config.yml')
+  json_directory = ARGV[1]
+
+  unless File.exist?(file)
+    @logger.error("#{file.inspect}: File not found")
+    exit(1)
+  end
+
+  unless Dir.exist?(json_directory)
+    @logger.error("#{json_directory}: Directory does not exist")
+    exit(1)
+  end
+
+  data = YAML.load_file(file)
+rescue Exception => exception
+  @logger.error(exception.message)
+  exception.backtrace.each { |line| @logger.error(line) }
+end
+
+data[:characters].each do |abbrev, name|
+  current_filename = File.join(json_directory, "#{abbrev.to_s}.json")
+  updated_filename = File.join(json_directory, "#{name}.json")
+  if File.exist?(current_filename)
+    @logger.info("Renaming #{current_filename.inspect} to #{updated_filename.inspect}")
+    File.rename(current_filename, updated_filename)
+  end
+end
